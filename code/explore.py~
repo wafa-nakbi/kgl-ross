@@ -1,0 +1,14 @@
+import json
+
+trainfile = '../data/train.json'
+storefile = '../data/store.json',
+
+for i in files:
+    print(str(i) + ': ' + files[i])
+
+fnumber = input('Enter file number from above: ')
+fname = files[fnumber]
+
+data = json.load(open(fname, 'r'))
+
+
